@@ -13,7 +13,7 @@ namespace Oxide.Plugins
         public static BanListerPartner Instance;
         private const string BaseGetUrl = "http://api.banlister.com/retrieve.php?i=1&api_key={0}&steamid={1}";
         private const string BasePostUrl = "http://api.banlister.com/insert_rust.php";
-        private const string AdminPermission = "banlister.admin";
+        private const string AdminPermission = "banlisterpartner.admin";
 
         private class BanData
         {
